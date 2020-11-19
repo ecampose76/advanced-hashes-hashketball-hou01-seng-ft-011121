@@ -178,12 +178,12 @@ def player_numbers team_name
       team_info.each do |attribute, value|
         if attribute == :players
           value.each do |player|
-            output.push
+            output.push(player[:number])
         end
       end 
       end
     end
-output
+  end
 end
 
 
