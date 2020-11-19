@@ -193,6 +193,6 @@ def player_stats(players_name)
     if team_info == :players
       output << team_info
     end
-      end
+    end
   end
 end
