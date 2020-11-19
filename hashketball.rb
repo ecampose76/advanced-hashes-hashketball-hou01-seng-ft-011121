@@ -188,8 +188,11 @@ def player_numbers(input)
 end
 
 def player_stats(players_name)
+  output = {}
   game_hash.each do |team, team_info|
-    
+    if team_info == :players
+      team_info do |keys|
+      end
   end
   binding.pry
 end
