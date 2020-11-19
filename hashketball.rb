@@ -193,7 +193,7 @@ def player_stats(input)
       if key == :players
         value.each do |players_stats|
           if input == player_stats[:player_name]
-            return player
+            return player_stats
           end
           binding.pry
       end
