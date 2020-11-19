@@ -193,7 +193,7 @@ def player_stats(input)
       if key == :players
         value.each do |player|
           if input == player[:player_name]
-            player.delete(:player_name) # having player name inside the hash was a bad idea!
+            player(:player_name)
             return player
           end
         end
