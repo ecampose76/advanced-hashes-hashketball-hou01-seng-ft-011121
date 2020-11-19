@@ -194,6 +194,4 @@ def player_stats(players_name)
       output << team_info
     end
   end
-    end
-  end
 end
