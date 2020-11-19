@@ -171,10 +171,10 @@ def team_names
     end
 end 
 
-def player_numbers(team_name)
+def player_numbers(teams_name)
   output = []
   game_hash.each do |home_or_visitor, team_info|
-    if team_info[:team_name] = team_name
+    if team_info[:team_name] = teams_name
       team_info.each do |attribute, value|
         if attribute == :players
           value.each do |player|
