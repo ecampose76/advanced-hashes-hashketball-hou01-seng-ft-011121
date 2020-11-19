@@ -191,9 +191,9 @@ def player_stats(input)
   game_hash.each do |home_or_visitor, team_info|
     team_info.each do |key, value|
       if key == :players
-        value.each do |players_stats|
-          if input == player_stats[:player_name]
-            return player_stats
+        value.each do |player|
+          if input == player[:player_name]
+            return player
           end
           binding.pry
       end
