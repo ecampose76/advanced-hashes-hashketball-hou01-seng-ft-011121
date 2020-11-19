@@ -191,7 +191,8 @@ def player_stats(players_name)
   output = {}
   game_hash.each do |team, team_info|
     if team_info == :players
-      team_info do |keys|
+      output << team_info
+    end
       end
   end
   binding.pry
