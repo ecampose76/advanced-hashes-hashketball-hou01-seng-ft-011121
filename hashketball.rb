@@ -195,8 +195,8 @@ def player_stats(input)
           if input == player[:player_name]
             return player
           end
-        end
       end
-    end
-  end
+      end
+     end
+end
 end
