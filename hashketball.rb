@@ -191,7 +191,7 @@ def player_stats(players_name)
   output = {}
   game_hash.each do |team, team_info|
     if team_info == :players
-      output << team_info[:players].to_hash
+      output = team_info[:players]
     end
   end
   return output
